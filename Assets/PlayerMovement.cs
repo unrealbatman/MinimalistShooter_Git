@@ -4,17 +4,18 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float accelerationTime = 2f;
+    public float accelerationTime = 1f;
     public float maxSpeed = 5f;
+
+    //represents direction of player
     private Vector2 movement;
     private float timeLeft;
-    public Rigidbody2D rb;
+    private Rigidbody2D rb;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = this.GetComponentInParent<Rigidbody2D>();
-        Debug.Log(rb.name);
     }
     void Update()
     {
