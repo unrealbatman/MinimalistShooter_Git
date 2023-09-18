@@ -98,8 +98,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7307a4b9a6a7a60478320a0d87cdb854, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startColor: {r: 0.3490566, g: 0.0021952812, b: 0.0021952812, a: 1}
-  endColor: {r: 0.7924528, g: 0, b: 0, a: 0}
+  startColor: {r: 0.07208995, g: 0.34901962, b: 0.003921568, a: 1}
+  endColor: {r: 0, g: 0.7921569, b: 0.0017617319, a: 0}
   speed: 1
 --- !u!61 &-207570836158019937
 BoxCollider2D:
