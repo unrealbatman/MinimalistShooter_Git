@@ -9,6 +9,10 @@ public class PlayerShooting : MonoBehaviour
     [Range(0.1f, 1f)]
     [SerializeField] float fireRate = 0.5f;
     
+    //sound
+    public AudioSource AudioSource;
+    public AudioClip shootingClip;
+    
     float fireTimer;
     
     
@@ -22,6 +26,7 @@ public class PlayerShooting : MonoBehaviour
     }
     
     void Shoot(){
+        AudioSource.PlayOneShot(shootingClip);
         Instantiate(bullet, firingPoint.position, firingPoint.rotation);
     }
 }
