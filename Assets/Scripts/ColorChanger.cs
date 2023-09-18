@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerColor : MonoBehaviour
+public class ColorChanger : MonoBehaviour
 {
-    private GameObject Player;
+
 
     private new SpriteRenderer renderer;
     public Color startColor,endColor;
@@ -13,8 +13,7 @@ public class PlayerColor : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Player = GameObject.FindGameObjectWithTag("Player");
-        renderer = Player.GetComponent<SpriteRenderer>();
+        renderer = this.GetComponent<SpriteRenderer>();
     }
     // Update is called once per frame
     void Update()
