@@ -22,7 +22,7 @@ public class Bullet : MonoBehaviour
     }
     
     void OntriggerEnter2D(Collider2D collision){
-        if (collision.gameObject.GetComponent<Enemy>() != null){
+        if (collision.gameObject.tag.Equals ("enemy")){
             Destroy(collision.gameObject);
             Destroy(gameObject);
         }
