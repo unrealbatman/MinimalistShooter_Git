@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e5335364b3da934ca719ea06d4d2a55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Enemy_Square: {fileID: 0}
-  Enemy_Triangle: {fileID: 0}
-  square_Interval: 0
-  triangle_Interval: 0
+  Enemy_Square: {fileID: 6807587062055378677, guid: a4c4c1a12c45eec459bd1ce474059c01, type: 3}
+  Enemy_Triangle: {fileID: 1085852829812214277, guid: df43e7e2e18361646aa16da1a6b0f76c, type: 3}
+  square_Interval: 4
+  triangle_Interval: 5
